@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Streamlit secrets (never commit API keys or passwords)
+.streamlit/secrets.toml
+
+# Local Claude Code settings
+.claude/
+
+# Editor / OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exports downloaded from the app
+flagged_transactions*.csv
